@@ -1,0 +1,25 @@
+{
+  "name": "beautiful-mermaid-cli",
+  "version": "1.0.0",
+  "description": "Convert Mermaid diagrams to beautiful themed SVGs via CLI",
+  "type": "module",
+  "bin": {
+    "bmm": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "mermaid",
+    "svg",
+    "diagram",
+    "cli",
+    "theme"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "beautiful-mermaid": "^1.1.3",
+    "commander": "^13.1.0"
+  }
+}
