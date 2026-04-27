@@ -23,7 +23,7 @@ export async function readInput(filePath) {
 
 export async function writeOutput(filePath, content) {
   try {
-    await writeFile(filePath, content, 'utf8');
+    await writeFile(filePath, content);
   } catch (e) {
     throw new Error(`Cannot write to ${filePath}: ${e.message}`);
   }
